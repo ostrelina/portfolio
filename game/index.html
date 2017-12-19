@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            background: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <script src="phaser.min.js"></script>
+    <script type="text/javascript" src="level1.js"></script>
+    <script type="text/javascript" src="level2.js"></script>
+    <script type="text/javascript" src="level3.js"></script>
+    <script type="text/javascript" src="level4.js"></script>
+    <script type="text/javascript" src="level5.js"></script>
+    <script type="text/javascript" src="level6.js"></script>
+    <script type="text/javascript" src="level7.js"></script>
+    <script type="text/javascript" src="level8.js"></script>
+    <script type="text/javascript" src="level9.js"></script>
+    <script type="text/javascript" src="level10.js"></script>
+    <script>
+        var game = new Phaser.Game(1600, 900, Phaser.AUTO, "", {
+            'preload': preload,
+            'create': create,
+            'update': update
+        });
+
+        function preload() {
+
+        };
+
+        function create() {
+            game.state.add("level1", level1);
+            game.state.add("level2", level2)
+            game.state.add("level3", level3)
+            game.state.add("level4", level4)
+            game.state.add("level5", level5)
+            game.state.add("level6", level6)
+            game.state.add("level7", level7)
+            game.state.add("level8", level8)
+            game.state.add("level9", level9)
+            game.state.add("level10", level10)
+            //            
+            //               game.state.start("level1");
+            game.state.start("level1")
+
+
+        };
+
+        function update() {
+
+        };
+
+    </script>
+
+</body>
+
+</html>

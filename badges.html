@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="materialize/css/materialize.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+		}
+		body{
+			background-image: url(dor.jpg)
+		}
+		.header{
+			padding-top: 200px;
+			padding-left: 50px;
+		}
+		.smoll{
+			padding-left: 50px;
+		}
+		
+	</style>
+</head>
+<body >
+<nav>
+   <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Портфолио</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="me.html">О себе</a></li>
+        <li><a href="badges.html">Почему я выбрала прог</a></li>
+        <li><a href="collap.html">Кем я себя вижу</a></li>
+        <li><a href="collaps.html">Мои работы</a></li>
+        <li><a href="col.html">Мои награды</a></li>
+      </ul>
+      
+       <ul class="side-nav grey" id="mobile-demo">
+        <li><a href="me.html">О себе</a></li>
+        <li><a href="badges.html">Почему я выбрала прог</a></li>
+        <li><a href="collap.html">Кем я себя вижу</a></li>
+        <li><a href="collaps.html">Мои работы</a></li>
+        <li><a href="col.html">Мои награды</a></li>
+      </ul>
+    </div>
+  </nav>
+        
+    <h2 class="header white-text text-lighten-5 darken-1">Почему я выбрала программирование?</h2>
+    <p class="smoll grey-text text-lighten-2">
+    	Почему я выбрала прог? Я скажу что я выбрала прог потому что это интересно писать коды,делать что-то
+    	сидеть за компьютером часами и меня не наругают потому что ты занимаешься делом. Вообще когда я начала заниматся программированием я стала более спокойной и серьёзной. В будущем я собираюсь дальше заниматся программированием.
+    </p>
+
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+         
+        })	
+	</script>
+</body>
+</html>
