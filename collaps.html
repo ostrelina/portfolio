@@ -1,72 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" href="materialize/css/materialize.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Document</title>
-	<style>
-		*{
-			margin:0;
-		}
-		body{
-			background-image: url(panda.jpeg)
-		}
-		.header{
-			padding-top: 200px;
-			padding-left: 50px;
-		}
-		.smoll{
-			padding-left: 50px;
-		}
-	</style>
-</head>
-<body >
-<nav>
-   <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo right">Портфолио</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="me.html">О себе</a></li>
-        <li><a href="badges.html">Почему я выбрала прог</a></li>
-        <li><a href="collap.html">Кем я себя вижу</a></li>
-        <li><a href="collaps.html">Мои работы</a></li>
-        <li><a href="col.html">Мои награды</a></li>
-      </ul>
-      
-       <ul class="side-nav  indigo darken-4" id="mobile-demo">
-        <li><a href="me.html">О себе</a></li>
-        <li><a href="badges.html">Почему я выбрала прог</a></li>
-        <li><a href="collap.html">Кем я себя вижу</a></li>
-        <li><a href="collaps.html">Мои работы</a></li>
-        <li><a href="col.html">Мои награды</a></li>
-      </ul>
-    </div>
-  </nav>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
         
-   <div class="row">
-        <div class="col s12 m7">
-          <div class="card">
-            <div class="card-image">
-              <img src="2017-12-19-172550_1366x768_scrot.png">
-              <span class="card-title">Проклятый дом</span>
-            </div>
-            <div class="card-content">
-              <p>Это моя первая игра. Суть этой игры искать подсказки и ключи и открывать новые уровни. Тут рассказывается о человеке который зашел в проклятый дом но добрый =).Здесь умерший хозяин этого дома даёт подсказки и его прошлые переписки,письма друзей, его врагов, для чего спросите вы для того чтобы этот человек разгадал кто или что убил этого хозяина чтобы хозяин освободился из этого дома.</p>
-              <a href="game/index.html">Посмотреть игру</a>
-			  </div>
-          </div>
+        .header {
+            padding-top: 200px;
+            padding-left: 50px;
+        }
+        
+        .smoll {
+            padding-left: 50px;
+        }
+        
+        .text {
+            font-size: 20px;
+        }
+        
+        .row {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body class="black">
+    <nav class="black">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo right">На главную</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+
+            </ul>
+
+            <ul class="side-nav blue lighten-3" id="mobile-demo">
+
+
+            </ul>
         </div>
-      </div>
-      
-     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <h2 class="white-text">Игра на фейзер</h2>
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="2017-12-19-172550_1366x768_scrot.png">
+                        <span class="card-title black-text">Проклятый дом</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Это моя первая игра. Суть этой игры искать подсказки и ключи и открывать новые уровни. Тут рассказывается о человеке который зашел в проклятый дом но добрый =).Здесь умерший хозяин этого дома даёт подсказки и его прошлые переписки,письма друзей, его врагов, для чего спросите вы для того чтобы этот человек разгадал кто или что убил этого хозяина чтобы хозяин освободился из этого дома.</p>
+                        <a href="">Посмотреть игру</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="white-text">моя игра на юнити</h2>
+
+        <div class="row">
+            <div class="col s12 m6">
+                <img class="materialboxed responsive-img" src="screen 2.png">
+            </div>
+            <div class=" col s12 m6">
+                <img class="materialboxed responsive-img"  src="screen 1.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s6 m7">
+                <div class="card">
+                    <div class="card-image">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/fYuzL-3yBNw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-content">
+                        <p>Суть этой игры в том чтобы пройти как можно больше уровней и собирать монетки</p>
+                    </div>
+                    <div class="card-action">
+                        <a href=https://github.com/ostrelina/unity.git>Здесь можно посмотреть мой код</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="white-text">Сайт сделанный на ларавеле</h2>
+        <div class="row col s6">
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6">
+                <img class="materialboxed responsive-img" src="src.png">
+            </div>
+            <div class=" col s12 m6">
+                <img class="materialboxed responsive-img"  src="src2.png">
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="white">
+               <p class="text">За время изучения Laravel было не так трудно но я иногда путалась. Было интересно работать и узнать как передовать из базы данных.</p>
+                <a class="black-text" href="https://github.com/ostrelina/laravel.git"> Тут можно посмотреть код</a>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Первое портфолио</h5>
+                    <p class="grey-text text-lighten-4">It-scool Алексея Илларионова</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="grey-text lighten-3-text">Анна</h5>
+                    <p>мой контакный телефон 89142711022</p>
+                    <p>моя почта @ostrelina02@mail.ru</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright black">
+            <div class="container">
+                © 2017-2018
+                <a class="grey-text text-lighten-4 right" href="#!">16.12.17-12.05.18</a>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="materialize/js/materialize.js"></script>
     <script>
         $(document).ready(function() {
             $(".button-collapse").sideNav();
-         
-        })	
-	</script>
+
+        })
+        $(document).ready(function() {
+            $('.materialboxed').materialbox();
+        });
+        instance.open();
+        instance.close();
+    </script>
 </body>
 </html>

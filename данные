@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="materialize/css/materialize.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+		}
+		body{
+			background-image: url(body.jpg);
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+  
+		}
+		.header{
+			padding-top: 200px;
+			padding-left: 50px;
+		}
+		.smoll{
+			padding-left: 50px;
+		}
+        footer{
+            flex:1 0 auto;
+        }
+	</style>
+</head>
+<body >
+<nav>
+   <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo right">Портфолио</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="me.html">О себе</a></li>
+        <li><a href="badges.html">Почему я выбрала прог</a></li>
+        <li><a href="collap.html">Кем я себя вижу</a></li>
+        <li><a href="collaps.html">Мои работы</a></li>
+        <li><a href="col.html">Мои награды</a></li>
+      </ul>
+      
+       <ul class="side-nav #b71c1c red darken-4" id="mobile-demo">
+        <li><a href="me.html">О себе</a></li>
+        <li><a href="badges.html">Почему я выбрала прог</a></li>
+        <li><a href="collap.html">Кем я себя вижу</a></li>
+        <li><a href="collaps.html">Мои работы</a></li>
+        <li><a href="col.html">Мои награды</a></li>
+      </ul>
+    </div>
+  </nav>
+        
+    <h2 class="header white-text text-lighten-5 darken-1">Меня зовут Аня</h2>
+    <p class="smoll grey-text text-lighten-2">
+    	Это моё портфолио. Тут я расскажу про себя и почему
+    	я выбрала программирование.
+    </p>
+    
+    
+    <h2 class="header white-text">Про себя</h2>
+    <div class="card horizontal">
+      <div class="card-stacked">
+        <div class="card-content grey-text text-darken-3 red">
+          <p class="black-text">Меня зовут Острелина Анна Сергеевна.Учусь в школе ЯГНГ 9 класс собираюсь сдать ОГЭ на хорошо и поступить в колледж. Я люблю слушать музыку от классики до рока. Обожаю сладкое жить без него не могу,утро всегда начинается с чего-нибудь сладкого =).Сейчас я еще хожу на муз.школу остался всего год. Хожу еще на айти-школу 1,5 год. Я люблю читать книгу фантастику,например моя самая любимая книга это 39 ключей,город лифтов. Моё хобби это сочинять музыку на пианине</p>
+        </div>
+      </div>
+    </div>
+
+<img src="dor.jpg">
+ <h2 class="header white-text text-lighten-5 darken-1">Почему я выбрала программирование?</h2>
+    <p class="smoll grey-text text-lighten-2">
+    	Почему я выбрала прог? Я скажу что я выбрала прог потому что это интересно писать коды,делать что-то
+    	сидеть за компьютером часами и меня не наругают потому что ты занимаешься делом. Вообще когда я начала заниматся программированием я стала более спокойной и серьёзной. В будущем я собираюсь дальше заниматся программированием.
+    </p>s
+<footer class="page-footer red darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Первое портфолио</h5>
+                <p class="grey-text text-lighten-4">It-scool Алексея Илларионова</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="grey-text lighten-3-text">Анна</h5>
+               <p>мой контакный телефон 89142711022</p>
+               <p>моя почта @ostrelina02@mail.ru</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright red darken-3">
+            <div class="container">
+            © 2017-2018
+            <a class="grey-text text-lighten-4 right" href="#!">16.12.17-12.05.18</a>
+            </div>
+          </div>
+        </footer>
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+         
+        })	
+	</script>
+</body>
+</html>
